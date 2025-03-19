@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+   background-image: url(https://cdn.pixabay.com/photo/2019/02/22/19/03/numbers-4014181_960_720.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   line-height: 1.6;
+}
+.logo
+{
+    font-size: 70px;
+    font-weight: 100;
+}
+.button
+{
+    background-color: black;
+    color: white;
+    height:75px ;
+    width: 165px;
+    padding:10px 15px ;
+    text-align:center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button:hover
+{
+    background-color: white;
+    color: black;
+}
+#number
+{
+    margin: 0;
+    padding: 1px;
+    line-height: 1.6;
+    background-color: aqua;
+    border: 3px dotted brown;
+    border-radius: 20px;
+}
+#submit
+{
+    background-color: black;
+    color: white;
+    height:75px ;
+    width: 165px;
+    padding:10px 15px ;
+    text-align:center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50%;
+    line-height: 2.0;
+    position: relative;
+    top:20px ;
+}
+#lives-text
+{
+    color:black;
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 10px;
+    font-size: 1.5em;
+}
+#message
+{
+    position: absolute;
+    display:none ;
+font-size: 1.5em;
+background-color:white;
+color: brown;
+padding: 5px 15px;
+top:10px;
+}
+.win,.loose
+{
+    height: 1000px;
+}
